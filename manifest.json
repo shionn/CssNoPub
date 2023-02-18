@@ -1,0 +1,46 @@
+{
+	"manifest_version": 2,
+	"name": "CssNoPub",
+	"version": "0.1",
+	"description": "Suppression de la pub via Css.",
+	"icons": {
+		"48": "icons/beenhere48px.png"
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "shionn@gmail.com",
+			"strict_min_version": "42.0"
+		}
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"clearpub.js"
+			],
+			"css": [
+				"clearpub.css",
+				"ez-cookie.css",
+				"google-ad.css"
+			]
+		},
+		{
+			"matches": [
+				"*://www.wowhead.com/*"
+			],
+			"css": [
+				"wowhead.css"
+			]
+		},
+		{
+			"matches": [
+				"*://www.youtube.com/*"
+			],
+			"css": [
+				"youtube.css"
+			]
+		}
+	]
+}

@@ -1,0 +1,5 @@
+
+.GoogleActiveViewElement, .GoogleActiveViewInnerContainer, .adContainer,
+[id^=google_ads_iframe] {
+	display: none !important;
+}

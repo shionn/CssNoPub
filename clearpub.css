@@ -1,0 +1,20 @@
+
+/* div qui semble conteznir des adds */
+.top-ads-container {
+	display: none !important;
+}
+
+/* ca semble etre un fournisseur */
+.gpt-ad {
+	display: none !important;
+}
+
+/* un autre fournisseur ? */
+.ezoic-ad {
+	display: none !important;
+}
+
+/* fournisseur de cookis ? */
+.js-consent-banner {
+	display: none !important;
+}

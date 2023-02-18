@@ -1,0 +1,8 @@
+
+#video-pos-static, .sidebar-wrapper, #video-pos-body, .blocks {
+	display: none !important;
+}
+
+.page-content {
+	padding-right: 0px !important;
+}
